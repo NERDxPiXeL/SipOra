@@ -1,12 +1,24 @@
 import React from 'react';
 
+import cappuccinoImg from '../assets/image/cappuccino.jpeg';
+import cafelatteImg from '../assets/image/cafelatte.jpeg';
+import darkcoffeeImg from '../assets/image/darkcoffee.jpeg';
+import espressoImg from '../assets/image/Espresso.jpeg';
+import coldBrewImg from '../assets/image/Cold Brew.jpeg';
+import mochaImg from '../assets/image/Mocha.jpeg';
+import breveImg from '../assets/image/Breve.jpeg';
+import libericaImg from '../assets/image/Liberica.jpeg';
+import arabicaImg from '../assets/image/arabica.jpeg';
+import robustaImg from '../assets/image/Robusta.jpeg';
+import excelsaImg from '../assets/image/Excelsa.jpeg';
+
 const drinks = [
   {
     id: 1,
     name: 'Cappuccino',
     price: '$4.20',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing.',
-    image: '/src/assets/image/cappuccino.jpeg', // Replace with actual image path
+    image: cappuccinoImg,
     bgColor: 'bg-yellow-500',
     textColor: 'text-white',
   },
@@ -15,7 +27,7 @@ const drinks = [
     name: 'Cafe Latte',
     price: '$3.15',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing.',
-    image: '/src/assets/image/cafelatte.jpeg',
+    image: cafelatteImg,
     bgColor: 'bg-gray-900',
     textColor: 'text-white',
   },
@@ -24,7 +36,7 @@ const drinks = [
     name: 'Cappuccino',
     price: '$4.20',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing.',
-    image: '/src/assets/image/cappuccino.jpeg',
+    image: cappuccinoImg,
     bgColor: 'bg-stone-900',
     textColor: 'text-white',
   },
@@ -33,7 +45,7 @@ const drinks = [
     name: 'Dark Coffee',
     price: '$2.75',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing.',
-    image: '/src/assets/image/darkcoffee.jpeg',
+    image: darkcoffeeImg,
     bgColor: 'bg-sky-950',
     textColor: 'text-white',
   },
@@ -42,7 +54,7 @@ const drinks = [
     name: 'Cappuccino',
     price: '$4.20',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing.',
-    image: '/src/assets/image/Espresso.jpeg',
+    image: espressoImg,
     bgColor: 'bg-yellow-500',
     textColor: 'text-white',
   },
@@ -51,7 +63,7 @@ const drinks = [
     name: 'Dark Coffee',
     price: '$2.75',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing.',
-    image: '/src/assets/image/Cold Brew.jpeg',
+    image: coldBrewImg,
     bgColor: 'bg-gray-900',
     textColor: 'text-white',
   },
@@ -60,7 +72,7 @@ const drinks = [
     name: 'Cafe Latte',
     price: '$3.15',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing.',
-    image: '/src/assets/image/Mocha.jpeg',
+    image: mochaImg,
     bgColor: 'bg-stone-900',
     textColor: 'text-white',
   },
@@ -69,7 +81,7 @@ const drinks = [
     name: 'Cappuccino',
     price: '$4.20',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing.',
-    image: '/src/assets/image/Breve.jpeg',
+    image: breveImg,
     bgColor: 'bg-sky-950',
     textColor: 'text-white',
   },
@@ -81,7 +93,7 @@ const coffeeForHome = [
     name: 'Liberica',
     price: '$19.90',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing.',
-    image: '/src/assets/image/Liberica.jpeg',
+    image: libericaImg,
     bgColor: 'bg-yellow-500',
     textColor: 'text-white',
   },
@@ -90,7 +102,7 @@ const coffeeForHome = [
     name: 'Arabica',
     price: '$24.20',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing.',
-    image: '/src/assets/image/arabica.jpeg',
+    image: arabicaImg,
     bgColor: 'bg-stone-800',
     textColor: 'text-white',
   },
@@ -99,7 +111,7 @@ const coffeeForHome = [
     name: 'Robusta',
     price: '$29.50',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing.',
-    image: '/src/assets/image/Robusta.jpeg',
+    image: robustaImg,
     bgColor: 'bg-gray-900',
     textColor: 'text-white',
   },
@@ -108,7 +120,7 @@ const coffeeForHome = [
     name: 'Excelsa',
     price: '$34.90',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing.',
-    image: '/src/assets/image/Excelsa.jpeg',
+    image: excelsaImg,
     bgColor: 'bg-sky-950',
     textColor: 'text-white',
   },
